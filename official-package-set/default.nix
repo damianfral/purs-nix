@@ -630,6 +630,73 @@ concurrent-queues =
       };
   };
 
+concur-core =
+  { src.git =
+    { repo = "https://github.com/purescript-concur/purescript-concur-core.git";
+      rev = "033f3cf96ecf4ebdf1f86110c91657657556c6ef";
+    };
+
+    info =
+      { version = "0.5.0";
+
+        dependencies =
+          [ aff
+            aff-bus
+            arrays
+            avar
+            console
+            control
+            datetime
+            effect
+            either
+            exceptions
+            foldable-traversable
+            free
+            identity
+            lazy
+            maybe
+            newtype
+            parallel
+            prelude
+            profunctor-lenses
+            tailrec
+            transformers
+            tuples
+          ];
+      };
+  };
+
+concur-react =
+  { src.git =
+    { repo = "https://github.com/purescript-concur/purescript-concur-react.git";
+      rev = "92d811b957e6e3d4c790a0db34be0fb5ee2c5981";
+    };
+
+    info =
+      { version = "0.5.0";
+
+        dependencies =
+          [ aff
+            arrays
+            concur-core
+            console
+            effect
+            either
+            exceptions
+            maybe
+            prelude
+            react
+            react-dom
+            transformers
+            tuples
+            unsafe-coerce
+            web-dom
+            web-events
+            web-html
+          ];
+      };
+  };
+
 console =
   { src.git =
       { repo = "https://github.com/purescript/purescript-console.git";
