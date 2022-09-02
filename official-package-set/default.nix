@@ -10,7 +10,7 @@ ps-pkgs:
       { version = "9.0.0";
 
         dependencies =
-          [ arrays effect foreign nullable prelude web-html web-uievents 
+          [ arrays effect foreign nullable prelude web-html web-uievents
           ];
       };
   };
@@ -25,7 +25,7 @@ aff =
       { version = "7.0.0";
 
         dependencies =
-          [ datetime effect exceptions functions parallel transformers unsafe-coerce 
+          [ datetime effect exceptions functions parallel transformers unsafe-coerce
           ];
       };
   };
@@ -40,7 +40,7 @@ aff-bus =
       { version = "6.0.0";
 
         dependencies =
-          [ aff avar console effect either exceptions foldable-traversable lists prelude refs tailrec transformers tuples 
+          [ aff avar console effect either exceptions foldable-traversable lists prelude refs tailrec transformers tuples
           ];
       };
   };
@@ -55,7 +55,7 @@ aff-coroutines =
       { version = "9.0.0";
 
         dependencies =
-          [ aff avar coroutines effect 
+          [ aff avar coroutines effect
           ];
       };
   };
@@ -70,7 +70,7 @@ aff-promise =
       { version = "4.0.0";
 
         dependencies =
-          [ aff foreign 
+          [ aff foreign
           ];
       };
   };
@@ -85,7 +85,7 @@ aff-retry =
       { version = "2.0.0";
 
         dependencies =
-          [ aff arrays datetime effect either exceptions integers maybe newtype numbers prelude random transformers 
+          [ aff arrays datetime effect either exceptions integers maybe newtype numbers prelude random transformers
           ];
       };
   };
@@ -100,7 +100,7 @@ affjax =
       { version = "13.0.0";
 
         dependencies =
-          [ aff argonaut-core arraybuffer-types foreign form-urlencoded http-methods integers media-types nullable refs unsafe-coerce web-xhr 
+          [ aff argonaut-core arraybuffer-types foreign form-urlencoded http-methods integers media-types nullable refs unsafe-coerce web-xhr
           ];
       };
   };
@@ -115,7 +115,7 @@ affjax-node =
       { version = "1.0.0";
 
         dependencies =
-          [ aff affjax either maybe prelude 
+          [ aff affjax either maybe prelude
           ];
       };
   };
@@ -130,7 +130,7 @@ affjax-web =
       { version = "1.0.0";
 
         dependencies =
-          [ aff affjax either maybe prelude 
+          [ aff affjax either maybe prelude
           ];
       };
   };
@@ -145,7 +145,7 @@ ansi =
       { version = "7.0.0";
 
         dependencies =
-          [ foldable-traversable lists strings 
+          [ foldable-traversable lists strings
           ];
       };
   };
@@ -160,7 +160,7 @@ argonaut =
       { version = "9.0.0";
 
         dependencies =
-          [ argonaut-codecs argonaut-core argonaut-traversals 
+          [ argonaut-codecs argonaut-core argonaut-traversals
           ];
       };
   };
@@ -175,7 +175,7 @@ argonaut-codecs =
       { version = "9.1.0";
 
         dependencies =
-          [ argonaut-core arrays effect foreign-object identity integers maybe nonempty ordered-collections prelude record 
+          [ argonaut-core arrays effect foreign-object identity integers maybe nonempty ordered-collections prelude record
           ];
       };
   };
@@ -190,7 +190,7 @@ argonaut-core =
       { version = "7.0.0";
 
         dependencies =
-          [ arrays control either foreign-object functions gen maybe nonempty prelude strings tailrec 
+          [ arrays control either foreign-object functions gen maybe nonempty prelude strings tailrec
           ];
       };
   };
@@ -205,7 +205,7 @@ argonaut-generic =
       { version = "8.0.0";
 
         dependencies =
-          [ argonaut-codecs argonaut-core prelude record 
+          [ argonaut-codecs argonaut-core prelude record
           ];
       };
   };
@@ -220,7 +220,7 @@ argonaut-traversals =
       { version = "10.0.0";
 
         dependencies =
-          [ argonaut-codecs argonaut-core profunctor-lenses 
+          [ argonaut-codecs argonaut-core profunctor-lenses
           ];
       };
   };
@@ -235,7 +235,7 @@ argparse-basic =
       { version = "2.0.0";
 
         dependencies =
-          [ arrays bifunctors control either foldable-traversable integers lists maybe newtype numbers prelude record strings tuples unfoldable 
+          [ arrays bifunctors control either foldable-traversable integers lists maybe newtype numbers prelude record strings tuples unfoldable
           ];
       };
   };
@@ -250,7 +250,7 @@ array-builder =
       { version = "0.1.2";
 
         dependencies =
-          [ arrays ps-pkgs."assert" console effect foldable-traversable maybe nullable prelude 
+          [ arrays ps-pkgs."assert" console effect foldable-traversable maybe nullable prelude
           ];
       };
   };
@@ -265,7 +265,7 @@ arraybuffer =
       { version = "13.0.0";
 
         dependencies =
-          [ arraybuffer-types arrays effect float32 functions gen maybe nullable prelude tailrec uint unfoldable 
+          [ arraybuffer-types arrays effect float32 functions gen maybe nullable prelude tailrec uint unfoldable
           ];
       };
   };
@@ -280,7 +280,7 @@ arraybuffer-builder =
       { version = "3.0.1";
 
         dependencies =
-          [ arraybuffer arraybuffer-types effect float32 identity lists maybe newtype prelude tailrec transformers uint 
+          [ arraybuffer arraybuffer-types effect float32 identity lists maybe newtype prelude tailrec transformers uint
           ];
       };
   };
@@ -295,7 +295,7 @@ arraybuffer-types =
       { version = "3.0.2";
 
         dependencies =
-          [ 
+          [
           ];
       };
   };
@@ -310,7 +310,7 @@ arrays =
       { version = "7.0.0";
 
         dependencies =
-          [ bifunctors control foldable-traversable maybe nonempty partial prelude st tailrec tuples unfoldable unsafe-coerce 
+          [ bifunctors control foldable-traversable maybe nonempty partial prelude st tailrec tuples unfoldable unsafe-coerce
           ];
       };
   };
@@ -325,7 +325,7 @@ arrays-zipper =
       { version = "2.0.1";
 
         dependencies =
-          [ arrays control quickcheck 
+          [ arrays control quickcheck
           ];
       };
   };
@@ -340,7 +340,7 @@ ask =
       { version = "1.0.0";
 
         dependencies =
-          [ unsafe-coerce 
+          [ unsafe-coerce
           ];
       };
   };
@@ -355,7 +355,7 @@ ask =
       { version = "6.0.0";
 
         dependencies =
-          [ console effect prelude 
+          [ console effect prelude
           ];
       };
   };
@@ -370,7 +370,7 @@ avar =
       { version = "5.0.0";
 
         dependencies =
-          [ aff effect either exceptions functions maybe 
+          [ aff effect either exceptions functions maybe
           ];
       };
   };
@@ -385,7 +385,7 @@ b64 =
       { version = "0.0.8";
 
         dependencies =
-          [ arraybuffer-types either encoding enums exceptions functions partial prelude strings 
+          [ arraybuffer-types either encoding enums exceptions functions partial prelude strings
           ];
       };
   };
@@ -400,7 +400,7 @@ barlow-lens =
       { version = "0.9.0";
 
         dependencies =
-          [ either foldable-traversable lists maybe newtype prelude profunctor profunctor-lenses tuples typelevel-prelude 
+          [ either foldable-traversable lists maybe newtype prelude profunctor profunctor-lenses tuples typelevel-prelude
           ];
       };
   };
@@ -415,7 +415,7 @@ bifunctors =
       { version = "6.0.0";
 
         dependencies =
-          [ const either newtype prelude tuples 
+          [ const either newtype prelude tuples
           ];
       };
   };
@@ -430,7 +430,7 @@ bigints =
       { version = "7.0.1";
 
         dependencies =
-          [ arrays ps-pkgs."assert" console effect foldable-traversable integers maybe numbers partial prelude quickcheck quickcheck-laws strings 
+          [ arrays ps-pkgs."assert" console effect foldable-traversable integers maybe numbers partial prelude quickcheck quickcheck-laws strings
           ];
       };
   };
@@ -445,7 +445,7 @@ bolson =
       { version = "0.1.1";
 
         dependencies =
-          [ control effect fast-vect filterable foldable-traversable foreign-object heterogeneous hyrule maybe monoid-extras prelude st tuples unsafe-coerce 
+          [ control effect fast-vect filterable foldable-traversable foreign-object heterogeneous hyrule maybe monoid-extras prelude st tuples unsafe-coerce
           ];
       };
   };
@@ -460,7 +460,7 @@ bower-json =
       { version = "3.0.0";
 
         dependencies =
-          [ argonaut-codecs arrays either foldable-traversable foreign-object maybe newtype prelude tuples 
+          [ argonaut-codecs arrays either foldable-traversable foreign-object maybe newtype prelude tuples
           ];
       };
   };
@@ -475,7 +475,7 @@ call-by-name =
       { version = "4.0.1";
 
         dependencies =
-          [ control either lazy maybe unsafe-coerce 
+          [ control either lazy maybe unsafe-coerce
           ];
       };
   };
@@ -490,7 +490,7 @@ canvas =
       { version = "6.0.0";
 
         dependencies =
-          [ arraybuffer-types effect exceptions functions maybe 
+          [ arraybuffer-types effect exceptions functions maybe
           ];
       };
   };
@@ -505,7 +505,7 @@ canvas-action =
       { version = "9.0.0";
 
         dependencies =
-          [ aff arrays canvas colors effect either exceptions foldable-traversable maybe numbers polymorphic-vectors prelude refs run transformers tuples type-equality typelevel-prelude unsafe-coerce web-dom web-events web-html 
+          [ aff arrays canvas colors effect either exceptions foldable-traversable maybe numbers polymorphic-vectors prelude refs run transformers tuples type-equality typelevel-prelude unsafe-coerce web-dom web-events web-html
           ];
       };
   };
@@ -520,7 +520,7 @@ cartesian =
       { version = "1.0.6";
 
         dependencies =
-          [ console effect integers psci-support 
+          [ console effect integers psci-support
           ];
       };
   };
@@ -535,7 +535,7 @@ catenable-lists =
       { version = "7.0.0";
 
         dependencies =
-          [ control foldable-traversable lists maybe prelude tuples unfoldable 
+          [ control foldable-traversable lists maybe prelude tuples unfoldable
           ];
       };
   };
@@ -550,7 +550,7 @@ channel =
       { version = "1.0.0";
 
         dependencies =
-          [ aff ps-pkgs."assert" avar console contravariant control effect either exceptions foldable-traversable lazy maybe newtype prelude tailrec transformers tuples 
+          [ aff ps-pkgs."assert" avar console contravariant control effect either exceptions foldable-traversable lazy maybe newtype prelude tailrec transformers tuples
           ];
       };
   };
@@ -565,7 +565,7 @@ checked-exceptions =
       { version = "3.1.1";
 
         dependencies =
-          [ prelude transformers variant 
+          [ prelude transformers variant
           ];
       };
   };
@@ -580,7 +580,7 @@ codec =
       { version = "5.0.0";
 
         dependencies =
-          [ profunctor transformers 
+          [ profunctor transformers
           ];
       };
   };
@@ -595,7 +595,7 @@ codec-argonaut =
       { version = "9.0.0";
 
         dependencies =
-          [ argonaut-core codec ordered-collections type-equality variant 
+          [ argonaut-core codec ordered-collections type-equality variant
           ];
       };
   };
@@ -610,10 +610,10 @@ colors =
       { version = "7.0.1";
 
         dependencies =
-          [ arrays integers lists numbers partial strings 
+          [ arrays integers lists numbers partial strings
           ];
       };
-  };
+    };
 
 concurrent-queues =
   { src.git =
@@ -707,7 +707,7 @@ console =
       { version = "6.0.0";
 
         dependencies =
-          [ effect prelude 
+          [ effect prelude
           ];
       };
   };
@@ -722,7 +722,7 @@ const =
       { version = "6.0.0";
 
         dependencies =
-          [ invariant newtype prelude 
+          [ invariant newtype prelude
           ];
       };
   };
@@ -737,7 +737,7 @@ contravariant =
       { version = "6.0.0";
 
         dependencies =
-          [ const either newtype prelude tuples 
+          [ const either newtype prelude tuples
           ];
       };
   };
@@ -752,7 +752,7 @@ control =
       { version = "6.0.0";
 
         dependencies =
-          [ newtype prelude 
+          [ newtype prelude
           ];
       };
   };
@@ -767,7 +767,7 @@ convertable-options =
       { version = "1.0.0";
 
         dependencies =
-          [ console effect maybe record 
+          [ console effect maybe record
           ];
       };
   };
@@ -782,7 +782,7 @@ coroutines =
       { version = "7.0.0";
 
         dependencies =
-          [ freet parallel profunctor 
+          [ freet parallel profunctor
           ];
       };
   };
@@ -797,7 +797,7 @@ css =
       { version = "6.0.0";
 
         dependencies =
-          [ colors console effect nonempty profunctor strings these transformers 
+          [ colors console effect nonempty profunctor strings these transformers
           ];
       };
   };
@@ -812,7 +812,7 @@ datetime =
       { version = "6.1.0";
 
         dependencies =
-          [ bifunctors control either enums foldable-traversable functions gen integers lists maybe newtype numbers ordered-collections partial prelude tuples 
+          [ bifunctors control either enums foldable-traversable functions gen integers lists maybe newtype numbers ordered-collections partial prelude tuples
           ];
       };
   };
@@ -827,7 +827,7 @@ datetime-parsing =
       { version = "0.2.0";
 
         dependencies =
-          [ arrays datetime either enums foldable-traversable integers lists maybe numbers parsing prelude strings unicode 
+          [ arrays datetime either enums foldable-traversable integers lists maybe numbers parsing prelude strings unicode
           ];
       };
   };
@@ -842,7 +842,7 @@ debug =
       { version = "6.0.0";
 
         dependencies =
-          [ functions prelude 
+          [ functions prelude
           ];
       };
   };
@@ -857,7 +857,7 @@ decimals =
       { version = "7.1.0";
 
         dependencies =
-          [ maybe 
+          [ maybe
           ];
       };
   };
@@ -872,7 +872,7 @@ deku =
       { version = "0.6.0";
 
         dependencies =
-          [ aff arrays bolson control effect fast-vect filterable foldable-traversable foreign-object heterogeneous hyrule maybe monoid-extras newtype ordered-collections prelude profunctor quickcheck record refs safe-coerce st strings transformers unsafe-coerce web-dom web-events web-html 
+          [ aff arrays bolson control effect fast-vect filterable foldable-traversable foreign-object heterogeneous hyrule maybe monoid-extras newtype ordered-collections prelude profunctor quickcheck record refs safe-coerce st strings transformers unsafe-coerce web-dom web-events web-html
           ];
       };
   };
@@ -887,7 +887,7 @@ deno =
       { version = "0.0.5";
 
         dependencies =
-          [ aff aff-promise argonaut arraybuffer-types console effect either functions maybe ordered-collections prelude strings tuples unsafe-coerce web-streams 
+          [ aff aff-promise argonaut arraybuffer-types console effect either functions maybe ordered-collections prelude strings tuples unsafe-coerce web-streams
           ];
       };
   };
@@ -902,7 +902,7 @@ dissect =
       { version = "1.0.0";
 
         dependencies =
-          [ arrays bifunctors foreign-object functors newtype partial prelude tailrec type-equality typelevel-prelude unsafe-coerce variant 
+          [ arrays bifunctors foreign-object functors newtype partial prelude tailrec type-equality typelevel-prelude unsafe-coerce variant
           ];
       };
   };
@@ -917,7 +917,7 @@ distributive =
       { version = "6.0.0";
 
         dependencies =
-          [ identity newtype prelude tuples type-equality 
+          [ identity newtype prelude tuples type-equality
           ];
       };
   };
@@ -932,7 +932,7 @@ dodo-printer =
       { version = "2.2.0";
 
         dependencies =
-          [ aff ansi avar console effect foldable-traversable lists maybe minibench node-child-process node-fs-aff node-process psci-support strings 
+          [ aff ansi avar console effect foldable-traversable lists maybe minibench node-child-process node-fs-aff node-process psci-support strings
           ];
       };
   };
@@ -947,7 +947,7 @@ dom-indexed =
       { version = "11.0.0";
 
         dependencies =
-          [ media-types prelude web-clipboard web-pointerevents web-touchevents 
+          [ media-types prelude web-clipboard web-pointerevents web-touchevents
           ];
       };
   };
@@ -962,7 +962,7 @@ dotenv =
       { version = "3.0.0";
 
         dependencies =
-          [ aff arrays control effect either exceptions foldable-traversable maybe node-buffer node-child-process node-fs-aff node-process parsing prelude run strings sunde transformers tuples 
+          [ aff arrays control effect either exceptions foldable-traversable maybe node-buffer node-child-process node-fs-aff node-process parsing prelude run strings sunde transformers tuples
           ];
       };
   };
@@ -977,7 +977,7 @@ droplet =
       { version = "0.4.0";
 
         dependencies =
-          [ aff arrays bifunctors bigints datetime debug effect either enums exceptions foldable-traversable foreign foreign-object integers maybe newtype nullable ordered-collections partial prelude profunctor record spec strings transformers tuples type-equality typelevel-prelude unsafe-coerce 
+          [ aff arrays bifunctors bigints datetime debug effect either enums exceptions foldable-traversable foreign foreign-object integers maybe newtype nullable ordered-collections partial prelude profunctor record spec strings transformers tuples type-equality typelevel-prelude unsafe-coerce
           ];
       };
   };
@@ -992,7 +992,7 @@ dynamic-buffer =
       { version = "3.0.1";
 
         dependencies =
-          [ arraybuffer-types effect refs 
+          [ arraybuffer-types effect refs
           ];
       };
   };
@@ -1007,7 +1007,7 @@ effect =
       { version = "4.0.0";
 
         dependencies =
-          [ prelude 
+          [ prelude
           ];
       };
   };
@@ -1022,7 +1022,7 @@ either =
       { version = "6.1.0";
 
         dependencies =
-          [ control invariant maybe prelude 
+          [ control invariant maybe prelude
           ];
       };
   };
@@ -1037,7 +1037,7 @@ elmish =
       { version = "0.8.2";
 
         dependencies =
-          [ aff argonaut-core arrays bifunctors console debug effect either foldable-traversable foreign foreign-object functions integers js-date maybe nullable partial prelude refs typelevel-prelude undefined-is-not-a-problem unsafe-coerce web-dom web-html 
+          [ aff argonaut-core arrays bifunctors console debug effect either foldable-traversable foreign foreign-object functions integers js-date maybe nullable partial prelude refs typelevel-prelude undefined-is-not-a-problem unsafe-coerce web-dom web-html
           ];
       };
   };
@@ -1052,7 +1052,7 @@ elmish-enzyme =
       { version = "0.1.1";
 
         dependencies =
-          [ aff aff-promise arrays console debug effect elmish foldable-traversable foreign functions prelude transformers unsafe-coerce 
+          [ aff aff-promise arrays console debug effect elmish foldable-traversable foreign functions prelude transformers unsafe-coerce
           ];
       };
   };
@@ -1067,7 +1067,7 @@ elmish-hooks =
       { version = "0.8.2";
 
         dependencies =
-          [ aff debug elmish maybe prelude tuples undefined-is-not-a-problem 
+          [ aff debug elmish maybe prelude tuples undefined-is-not-a-problem
           ];
       };
   };
@@ -1082,7 +1082,7 @@ elmish-html =
       { version = "0.7.1";
 
         dependencies =
-          [ effect elmish foreign foreign-object prelude record typelevel-prelude unsafe-coerce web-html 
+          [ effect elmish foreign foreign-object prelude record typelevel-prelude unsafe-coerce web-html
           ];
       };
   };
@@ -1097,7 +1097,7 @@ email-validate =
       { version = "7.0.0";
 
         dependencies =
-          [ aff string-parsers transformers 
+          [ aff string-parsers transformers
           ];
       };
   };
@@ -1112,7 +1112,7 @@ encoding =
       { version = "0.0.8";
 
         dependencies =
-          [ arraybuffer-types either exceptions functions prelude 
+          [ arraybuffer-types either exceptions functions prelude
           ];
       };
   };
@@ -1127,7 +1127,7 @@ enums =
       { version = "6.0.1";
 
         dependencies =
-          [ control either gen maybe newtype nonempty partial prelude tuples unfoldable 
+          [ control either gen maybe newtype nonempty partial prelude tuples unfoldable
           ];
       };
   };
@@ -1142,7 +1142,7 @@ exceptions =
       { version = "6.0.0";
 
         dependencies =
-          [ effect either maybe prelude 
+          [ effect either maybe prelude
           ];
       };
   };
@@ -1157,7 +1157,7 @@ exists =
       { version = "6.0.0";
 
         dependencies =
-          [ unsafe-coerce 
+          [ unsafe-coerce
           ];
       };
   };
@@ -1172,7 +1172,7 @@ exitcodes =
       { version = "4.0.0";
 
         dependencies =
-          [ enums 
+          [ enums
           ];
       };
   };
@@ -1187,7 +1187,7 @@ expect-inferred =
       { version = "3.0.0";
 
         dependencies =
-          [ prelude typelevel-prelude 
+          [ prelude typelevel-prelude
           ];
       };
   };
@@ -1202,7 +1202,7 @@ fast-vect =
       { version = "0.7.0";
 
         dependencies =
-          [ arrays filterable foldable-traversable lists maybe ordered-collections prelude profunctor tuples unfoldable 
+          [ arrays filterable foldable-traversable lists maybe ordered-collections prelude profunctor tuples unfoldable
           ];
       };
   };
@@ -1217,7 +1217,7 @@ fetch =
       { version = "1.1.0";
 
         dependencies =
-          [ aff aff-promise arraybuffer-types effect fetch-core foreign http-methods newtype prelude record typelevel-prelude unsafe-coerce web-file web-promise web-streams 
+          [ aff aff-promise arraybuffer-types effect fetch-core foreign http-methods newtype prelude record typelevel-prelude unsafe-coerce web-file web-promise web-streams
           ];
       };
   };
@@ -1232,7 +1232,7 @@ fetch-argonaut =
       { version = "1.0.0";
 
         dependencies =
-          [ aff argonaut console effect either foreign prelude transformers unsafe-coerce 
+          [ aff argonaut console effect either foreign prelude transformers unsafe-coerce
           ];
       };
   };
@@ -1247,7 +1247,7 @@ fetch-core =
       { version = "4.0.4";
 
         dependencies =
-          [ arraybuffer-types arrays console effect foldable-traversable foreign foreign-object functions http-methods maybe newtype nullable prelude record tuples typelevel-prelude unfoldable unsafe-coerce web-file web-promise web-streams 
+          [ arraybuffer-types arrays console effect foldable-traversable foreign foreign-object functions http-methods maybe newtype nullable prelude record tuples typelevel-prelude unfoldable unsafe-coerce web-file web-promise web-streams
           ];
       };
   };
@@ -1262,7 +1262,7 @@ fetch-yoga-json =
       { version = "1.1.0";
 
         dependencies =
-          [ aff either exceptions foreign lists prelude transformers yoga-json 
+          [ aff either exceptions foreign lists prelude transformers yoga-json
           ];
       };
   };
@@ -1277,7 +1277,7 @@ filterable =
       { version = "5.0.0";
 
         dependencies =
-          [ arrays either foldable-traversable identity lists ordered-collections 
+          [ arrays either foldable-traversable identity lists ordered-collections
           ];
       };
   };
@@ -1292,7 +1292,7 @@ fixed-points =
       { version = "7.0.0";
 
         dependencies =
-          [ exists newtype prelude transformers 
+          [ exists newtype prelude transformers
           ];
       };
   };
@@ -1307,7 +1307,7 @@ fixed-precision =
       { version = "5.0.0";
 
         dependencies =
-          [ arrays bigints control integers maybe numbers partial prelude strings 
+          [ arrays bigints control integers maybe numbers partial prelude strings
           ];
       };
   };
@@ -1322,7 +1322,7 @@ flame =
       { version = "1.2.0";
 
         dependencies =
-          [ aff argonaut-codecs argonaut-core argonaut-generic arrays bifunctors console effect either exceptions foldable-traversable foreign foreign-object maybe newtype nullable partial prelude random refs spec strings tuples typelevel-prelude unsafe-coerce web-dom web-events web-html web-uievents 
+          [ aff argonaut-codecs argonaut-core argonaut-generic arrays bifunctors console effect either exceptions foldable-traversable foreign foreign-object maybe newtype nullable partial prelude random refs spec strings tuples typelevel-prelude unsafe-coerce web-dom web-events web-html web-uievents
           ];
       };
   };
@@ -1337,7 +1337,7 @@ float32 =
       { version = "2.0.0";
 
         dependencies =
-          [ gen maybe prelude 
+          [ gen maybe prelude
           ];
       };
   };
@@ -1352,7 +1352,7 @@ foldable-traversable =
       { version = "6.0.0";
 
         dependencies =
-          [ bifunctors const control either functors identity maybe newtype orders prelude tuples 
+          [ bifunctors const control either functors identity maybe newtype orders prelude tuples
           ];
       };
   };
@@ -1367,7 +1367,7 @@ foreign =
       { version = "7.0.0";
 
         dependencies =
-          [ either functions identity integers lists maybe prelude strings transformers 
+          [ either functions identity integers lists maybe prelude strings transformers
           ];
       };
   };
@@ -1382,7 +1382,7 @@ foreign-object =
       { version = "4.0.0";
 
         dependencies =
-          [ arrays foldable-traversable functions gen lists maybe prelude st tailrec tuples typelevel-prelude unfoldable 
+          [ arrays foldable-traversable functions gen lists maybe prelude st tailrec tuples typelevel-prelude unfoldable
           ];
       };
   };
@@ -1397,7 +1397,7 @@ foreign-readwrite =
       { version = "3.0.0";
 
         dependencies =
-          [ foldable-traversable foreign foreign-object identity lists maybe newtype prelude record safe-coerce transformers unsafe-coerce 
+          [ foldable-traversable foreign foreign-object identity lists maybe newtype prelude record safe-coerce transformers unsafe-coerce
           ];
       };
   };
@@ -1412,7 +1412,7 @@ fork =
       { version = "6.0.0";
 
         dependencies =
-          [ aff 
+          [ aff
           ];
       };
   };
@@ -1427,7 +1427,7 @@ form-urlencoded =
       { version = "7.0.0";
 
         dependencies =
-          [ foldable-traversable js-uri maybe newtype prelude strings tuples 
+          [ foldable-traversable js-uri maybe newtype prelude strings tuples
           ];
       };
   };
@@ -1442,7 +1442,7 @@ formatters =
       { version = "7.0.0";
 
         dependencies =
-          [ datetime fixed-points lists numbers parsing prelude transformers 
+          [ datetime fixed-points lists numbers parsing prelude transformers
           ];
       };
   };
@@ -1457,7 +1457,7 @@ free =
       { version = "7.0.0";
 
         dependencies =
-          [ catenable-lists control distributive either exists foldable-traversable invariant lazy maybe prelude tailrec transformers tuples unsafe-coerce 
+          [ catenable-lists control distributive either exists foldable-traversable invariant lazy maybe prelude tailrec transformers tuples unsafe-coerce
           ];
       };
   };
@@ -1472,7 +1472,7 @@ freeap =
       { version = "7.0.0";
 
         dependencies =
-          [ const exists gen lists 
+          [ const exists gen lists
           ];
       };
   };
@@ -1487,7 +1487,7 @@ freer-free =
       { version = "0.0.1";
 
         dependencies =
-          [ prelude record 
+          [ prelude record
           ];
       };
   };
@@ -1502,7 +1502,7 @@ freet =
       { version = "7.0.0";
 
         dependencies =
-          [ aff bifunctors effect either exists free prelude tailrec transformers tuples 
+          [ aff bifunctors effect either exists free prelude tailrec transformers tuples
           ];
       };
   };
@@ -1517,7 +1517,7 @@ functions =
       { version = "6.0.0";
 
         dependencies =
-          [ prelude 
+          [ prelude
           ];
       };
   };
@@ -1532,7 +1532,7 @@ functors =
       { version = "5.0.0";
 
         dependencies =
-          [ bifunctors const contravariant control distributive either invariant maybe newtype prelude profunctor tuples unsafe-coerce 
+          [ bifunctors const contravariant control distributive either invariant maybe newtype prelude profunctor tuples unsafe-coerce
           ];
       };
   };
@@ -1547,7 +1547,7 @@ fuzzy =
       { version = "0.4.0";
 
         dependencies =
-          [ foldable-traversable foreign-object newtype ordered-collections prelude rationals strings tuples 
+          [ foldable-traversable foreign-object newtype ordered-collections prelude rationals strings tuples
           ];
       };
   };
@@ -1562,7 +1562,7 @@ gen =
       { version = "4.0.0";
 
         dependencies =
-          [ either foldable-traversable identity maybe newtype nonempty prelude tailrec tuples unfoldable 
+          [ either foldable-traversable identity maybe newtype nonempty prelude tailrec tuples unfoldable
           ];
       };
   };
@@ -1577,7 +1577,7 @@ generate-values =
       { version = "1.0.1";
 
         dependencies =
-          [ arrays control effect enums foldable-traversable gen identity integers lcg lists maybe newtype numbers partial prelude tailrec transformers tuples 
+          [ arrays control effect enums foldable-traversable gen identity integers lcg lists maybe newtype numbers partial prelude tailrec transformers tuples
           ];
       };
   };
@@ -1592,7 +1592,7 @@ generic-router =
       { version = "0.0.1";
 
         dependencies =
-          [ arrays ps-pkgs."assert" effect foldable-traversable lists maybe ordered-collections prelude record strings tuples 
+          [ arrays ps-pkgs."assert" effect foldable-traversable lists maybe ordered-collections prelude record strings tuples
           ];
       };
   };
@@ -1607,7 +1607,7 @@ geometry-plane =
       { version = "1.0.3";
 
         dependencies =
-          [ console effect psci-support sparse-polynomials 
+          [ console effect psci-support sparse-polynomials
           ];
       };
   };
@@ -1622,7 +1622,7 @@ github-actions-toolkit =
       { version = "0.5.0";
 
         dependencies =
-          [ aff aff-promise effect foreign-object node-buffer node-path node-streams nullable transformers 
+          [ aff aff-promise effect foreign-object node-buffer node-path node-streams nullable transformers
           ];
       };
   };
@@ -1637,7 +1637,7 @@ graphql-client =
       { version = "9.2.2";
 
         dependencies =
-          [ aff aff-promise affjax affjax-node affjax-web argonaut-codecs argonaut-core arrays bifunctors control datetime debug effect either enums exceptions foldable-traversable foreign foreign-object functions halogen-subscriptions heterogeneous http-methods integers lists maybe media-types newtype node-buffer node-fs nullable numbers ordered-collections parsing prelude profunctor profunctor-lenses psci-support quickcheck record spec spec-discovery string-parsers strings strings-extra transformers tuples unicode unsafe-coerce variant 
+          [ aff aff-promise affjax affjax-node affjax-web argonaut-codecs argonaut-core arrays bifunctors control datetime debug effect either enums exceptions foldable-traversable foreign foreign-object functions halogen-subscriptions heterogeneous http-methods integers lists maybe media-types newtype node-buffer node-fs nullable numbers ordered-collections parsing prelude profunctor profunctor-lenses psci-support quickcheck record spec spec-discovery string-parsers strings strings-extra transformers tuples unicode unsafe-coerce variant
           ];
       };
   };
@@ -1652,7 +1652,7 @@ graphs =
       { version = "8.0.0";
 
         dependencies =
-          [ catenable-lists ordered-collections 
+          [ catenable-lists ordered-collections
           ];
       };
   };
@@ -1667,7 +1667,7 @@ group =
       { version = "4.1.1";
 
         dependencies =
-          [ lists 
+          [ lists
           ];
       };
   };
@@ -1682,7 +1682,7 @@ halogen =
       { version = "7.0.0";
 
         dependencies =
-          [ aff avar console const dom-indexed effect foreign fork free freeap halogen-subscriptions halogen-vdom media-types nullable ordered-collections parallel profunctor transformers unsafe-coerce unsafe-reference web-file web-uievents 
+          [ aff avar console const dom-indexed effect foreign fork free freeap halogen-subscriptions halogen-vdom media-types nullable ordered-collections parallel profunctor transformers unsafe-coerce unsafe-reference web-file web-uievents
           ];
       };
   };
@@ -1697,7 +1697,7 @@ halogen-css =
       { version = "10.0.0";
 
         dependencies =
-          [ css halogen 
+          [ css halogen
           ];
       };
   };
@@ -1712,7 +1712,7 @@ halogen-formless =
       { version = "4.0.2";
 
         dependencies =
-          [ convertable-options effect either foldable-traversable foreign-object halogen heterogeneous maybe prelude record safe-coerce type-equality unsafe-coerce unsafe-reference variant web-events web-uievents 
+          [ convertable-options effect either foldable-traversable foreign-object halogen heterogeneous maybe prelude record safe-coerce type-equality unsafe-coerce unsafe-reference variant web-events web-uievents
           ];
       };
   };
@@ -1727,7 +1727,7 @@ halogen-hooks =
       { version = "0.6.0";
 
         dependencies =
-          [ aff arrays bifunctors effect exceptions foldable-traversable foreign-object free freeap halogen halogen-subscriptions maybe newtype ordered-collections parallel partial prelude refs tailrec transformers tuples unsafe-coerce unsafe-reference web-dom web-html 
+          [ aff arrays bifunctors effect exceptions foldable-traversable foreign-object free freeap halogen halogen-subscriptions maybe newtype ordered-collections parallel partial prelude refs tailrec transformers tuples unsafe-coerce unsafe-reference web-dom web-html
           ];
       };
   };
@@ -1742,7 +1742,7 @@ halogen-hooks-extra =
       { version = "0.9.0";
 
         dependencies =
-          [ halogen-hooks 
+          [ halogen-hooks
           ];
       };
   };
@@ -1757,7 +1757,7 @@ halogen-store =
       { version = "0.5.1";
 
         dependencies =
-          [ aff distributive effect fork halogen halogen-hooks halogen-subscriptions maybe prelude refs tailrec transformers tuples unsafe-reference 
+          [ aff distributive effect fork halogen halogen-hooks halogen-subscriptions maybe prelude refs tailrec transformers tuples unsafe-reference
           ];
       };
   };
@@ -1772,7 +1772,7 @@ halogen-storybook =
       { version = "2.0.0";
 
         dependencies =
-          [ foreign-object halogen prelude routing 
+          [ foreign-object halogen prelude routing
           ];
       };
   };
@@ -1787,7 +1787,7 @@ halogen-subscriptions =
       { version = "2.0.0";
 
         dependencies =
-          [ arrays effect foldable-traversable functors refs safe-coerce unsafe-reference 
+          [ arrays effect foldable-traversable functors refs safe-coerce unsafe-reference
           ];
       };
   };
@@ -1802,7 +1802,7 @@ halogen-svg-elems =
       { version = "6.0.0";
 
         dependencies =
-          [ halogen 
+          [ halogen
           ];
       };
   };
@@ -1817,7 +1817,7 @@ halogen-vdom =
       { version = "8.0.0";
 
         dependencies =
-          [ bifunctors effect foreign foreign-object maybe prelude refs tuples unsafe-coerce web-html 
+          [ bifunctors effect foreign foreign-object maybe prelude refs tuples unsafe-coerce web-html
           ];
       };
   };
@@ -1832,7 +1832,7 @@ halogen-vdom-string-renderer =
       { version = "0.5.0";
 
         dependencies =
-          [ foreign halogen-vdom ordered-collections prelude 
+          [ foreign halogen-vdom ordered-collections prelude
           ];
       };
   };
@@ -1847,7 +1847,7 @@ heckin =
       { version = "2.0.1";
 
         dependencies =
-          [ arrays foldable-traversable maybe prelude strings transformers tuples unicode 
+          [ arrays foldable-traversable maybe prelude strings transformers tuples unicode
           ];
       };
   };
@@ -1862,7 +1862,7 @@ heterogeneous =
       { version = "0.6.0";
 
         dependencies =
-          [ either functors prelude record tuples variant 
+          [ either functors prelude record tuples variant
           ];
       };
   };
@@ -1877,7 +1877,7 @@ heterogeneous-extrablatt =
       { version = "0.2.1";
 
         dependencies =
-          [ heterogeneous prelude record 
+          [ heterogeneous prelude record
           ];
       };
   };
@@ -1892,7 +1892,7 @@ homogeneous =
       { version = "0.4.0";
 
         dependencies =
-          [ ps-pkgs."assert" console effect foreign-object psci-support variant 
+          [ ps-pkgs."assert" console effect foreign-object psci-support variant
           ];
       };
   };
@@ -1907,7 +1907,7 @@ http-methods =
       { version = "6.0.0";
 
         dependencies =
-          [ either prelude strings 
+          [ either prelude strings
           ];
       };
   };
@@ -1922,7 +1922,7 @@ httpure =
       { version = "0.15.0";
 
         dependencies =
-          [ aff arrays bifunctors console effect either foldable-traversable foreign-object js-uri maybe newtype node-buffer node-fs node-http node-streams options ordered-collections prelude refs strings tuples type-equality 
+          [ aff arrays bifunctors console effect either foldable-traversable foreign-object js-uri maybe newtype node-buffer node-fs node-http node-streams options ordered-collections prelude refs strings tuples type-equality
           ];
       };
   };
@@ -1937,7 +1937,7 @@ httpurple =
       { version = "2.0.0";
 
         dependencies =
-          [ aff arrays bifunctors console control effect either foldable-traversable foreign-object js-uri justifill maybe newtype node-buffer node-fs node-http node-process node-streams options ordered-collections posix-types prelude profunctor record refs routing-duplex strings transformers tuples type-equality 
+          [ aff arrays bifunctors console control effect either foldable-traversable foreign-object js-uri justifill maybe newtype node-buffer node-fs node-http node-process node-streams options ordered-collections posix-types prelude profunctor record refs routing-duplex strings transformers tuples type-equality
           ];
       };
   };
@@ -1952,7 +1952,7 @@ httpurple-argonaut =
       { version = "1.0.1";
 
         dependencies =
-          [ argonaut console effect either httpurple prelude 
+          [ argonaut console effect either httpurple prelude
           ];
       };
   };
@@ -1967,7 +1967,7 @@ httpurple-yoga-json =
       { version = "1.0.0";
 
         dependencies =
-          [ console effect either foreign httpurple lists prelude yoga-json 
+          [ console effect either foreign httpurple lists prelude yoga-json
           ];
       };
   };
@@ -1982,7 +1982,7 @@ hyrule =
       { version = "2.1.0";
 
         dependencies =
-          [ arrays control datetime effect either filterable foldable-traversable js-timers lists maybe monoid-extras newtype now ordered-collections partial prelude profunctor record refs st tuples unsafe-coerce unsafe-reference web-events web-html web-uievents 
+          [ arrays control datetime effect either filterable foldable-traversable js-timers lists maybe monoid-extras newtype now ordered-collections partial prelude profunctor record refs st tuples unsafe-coerce unsafe-reference web-events web-html web-uievents
           ];
       };
   };
@@ -1997,7 +1997,7 @@ identity =
       { version = "6.0.0";
 
         dependencies =
-          [ control invariant newtype prelude 
+          [ control invariant newtype prelude
           ];
       };
   };
@@ -2012,7 +2012,7 @@ indexed-monad =
       { version = "2.1.0";
 
         dependencies =
-          [ control newtype 
+          [ control newtype
           ];
       };
   };
@@ -2027,7 +2027,7 @@ int64 =
       { version = "2.0.0";
 
         dependencies =
-          [ effect foreign functions integers maybe nullable prelude quickcheck 
+          [ effect foreign functions integers maybe nullable prelude quickcheck
           ];
       };
   };
@@ -2042,7 +2042,7 @@ integers =
       { version = "6.0.0";
 
         dependencies =
-          [ maybe numbers prelude 
+          [ maybe numbers prelude
           ];
       };
   };
@@ -2057,7 +2057,7 @@ interpolate =
       { version = "5.0.0";
 
         dependencies =
-          [ prelude 
+          [ prelude
           ];
       };
   };
@@ -2072,7 +2072,7 @@ invariant =
       { version = "6.0.0";
 
         dependencies =
-          [ control prelude 
+          [ control prelude
           ];
       };
   };
@@ -2087,7 +2087,7 @@ js-date =
       { version = "8.0.0";
 
         dependencies =
-          [ datetime effect exceptions foreign integers now 
+          [ datetime effect exceptions foreign integers now
           ];
       };
   };
@@ -2102,7 +2102,7 @@ js-fileio =
       { version = "3.0.0";
 
         dependencies =
-          [ aff effect prelude 
+          [ aff effect prelude
           ];
       };
   };
@@ -2117,7 +2117,7 @@ js-timers =
       { version = "6.1.0";
 
         dependencies =
-          [ effect 
+          [ effect
           ];
       };
   };
@@ -2132,7 +2132,7 @@ js-uri =
       { version = "3.0.0";
 
         dependencies =
-          [ functions maybe 
+          [ functions maybe
           ];
       };
   };
@@ -2147,7 +2147,7 @@ justifill =
       { version = "0.5.0";
 
         dependencies =
-          [ maybe prelude record typelevel-prelude 
+          [ maybe prelude record typelevel-prelude
           ];
       };
   };
@@ -2162,7 +2162,7 @@ jwt =
       { version = "0.0.9";
 
         dependencies =
-          [ argonaut-core arrays b64 either exceptions prelude profunctor-lenses strings 
+          [ argonaut-core arrays b64 either exceptions prelude profunctor-lenses strings
           ];
       };
   };
@@ -2177,7 +2177,7 @@ language-cst-parser =
       { version = "0.12.0";
 
         dependencies =
-          [ arrays const control either foldable-traversable free functions functors identity integers lazy lists maybe newtype numbers ordered-collections partial prelude st strings transformers tuples typelevel-prelude unfoldable unsafe-coerce 
+          [ arrays const control either foldable-traversable free functions functors identity integers lazy lists maybe newtype numbers ordered-collections partial prelude st strings transformers tuples typelevel-prelude unfoldable unsafe-coerce
           ];
       };
   };
@@ -2192,7 +2192,7 @@ lazy =
       { version = "6.0.0";
 
         dependencies =
-          [ control foldable-traversable invariant prelude 
+          [ control foldable-traversable invariant prelude
           ];
       };
   };
@@ -2207,7 +2207,7 @@ lazy-joe =
       { version = "1.0.0";
 
         dependencies =
-          [ aff aff-promise effect functions prelude unsafe-coerce 
+          [ aff aff-promise effect functions prelude unsafe-coerce
           ];
       };
   };
@@ -2222,7 +2222,7 @@ lcg =
       { version = "4.0.0";
 
         dependencies =
-          [ effect integers maybe partial prelude random 
+          [ effect integers maybe partial prelude random
           ];
       };
   };
@@ -2237,7 +2237,7 @@ leibniz =
       { version = "5.0.0";
 
         dependencies =
-          [ prelude unsafe-coerce 
+          [ prelude unsafe-coerce
           ];
       };
   };
@@ -2252,7 +2252,7 @@ linalg =
       { version = "5.1.0";
 
         dependencies =
-          [ arrays foldable-traversable functions maybe prelude tuples 
+          [ arrays foldable-traversable functions maybe prelude tuples
           ];
       };
   };
@@ -2267,7 +2267,7 @@ lists =
       { version = "7.0.0";
 
         dependencies =
-          [ bifunctors control foldable-traversable lazy maybe newtype nonempty partial prelude tailrec tuples unfoldable 
+          [ bifunctors control foldable-traversable lazy maybe newtype nonempty partial prelude tailrec tuples unfoldable
           ];
       };
   };
@@ -2282,7 +2282,7 @@ literals =
       { version = "1.0.2";
 
         dependencies =
-          [ integers maybe numbers partial prelude typelevel-prelude unsafe-coerce 
+          [ integers maybe numbers partial prelude typelevel-prelude unsafe-coerce
           ];
       };
   };
@@ -2297,7 +2297,7 @@ logging =
       { version = "3.0.0";
 
         dependencies =
-          [ console contravariant effect either prelude transformers tuples 
+          [ console contravariant effect either prelude transformers tuples
           ];
       };
   };
@@ -2312,7 +2312,7 @@ logging-journald =
       { version = "0.4.0";
 
         dependencies =
-          [ effect logging prelude systemd-journald 
+          [ effect logging prelude systemd-journald
           ];
       };
   };
@@ -2327,7 +2327,7 @@ machines =
       { version = "7.0.0";
 
         dependencies =
-          [ arrays control effect lists maybe prelude profunctor tuples unfoldable 
+          [ arrays control effect lists maybe prelude profunctor tuples unfoldable
           ];
       };
   };
@@ -2342,7 +2342,7 @@ matrices =
       { version = "5.0.1";
 
         dependencies =
-          [ arrays strings 
+          [ arrays strings
           ];
       };
   };
@@ -2357,7 +2357,7 @@ matryoshka =
       { version = "1.0.0";
 
         dependencies =
-          [ fixed-points free prelude profunctor transformers 
+          [ fixed-points free prelude profunctor transformers
           ];
       };
   };
@@ -2372,7 +2372,7 @@ maybe =
       { version = "6.0.0";
 
         dependencies =
-          [ control invariant newtype prelude 
+          [ control invariant newtype prelude
           ];
       };
   };
@@ -2387,7 +2387,7 @@ media-types =
       { version = "6.0.0";
 
         dependencies =
-          [ newtype prelude 
+          [ newtype prelude
           ];
       };
   };
@@ -2402,7 +2402,7 @@ metadata =
       { version = "0.15.0";
 
         dependencies =
-          [ 
+          [
           ];
       };
   };
@@ -2417,7 +2417,7 @@ midi =
       { version = "4.0.0";
 
         dependencies =
-          [ arrays control effect either foldable-traversable integers lists maybe ordered-collections prelude signal string-parsers strings tuples unfoldable 
+          [ arrays control effect either foldable-traversable integers lists maybe ordered-collections prelude signal string-parsers strings tuples unfoldable
           ];
       };
   };
@@ -2432,7 +2432,7 @@ milkis =
       { version = "9.0.0";
 
         dependencies =
-          [ aff-promise arraybuffer-types foreign-object prelude typelevel-prelude 
+          [ aff-promise arraybuffer-types foreign-object prelude typelevel-prelude
           ];
       };
   };
@@ -2447,7 +2447,7 @@ minibench =
       { version = "4.0.0";
 
         dependencies =
-          [ console effect integers numbers partial prelude refs 
+          [ console effect integers numbers partial prelude refs
           ];
       };
   };
@@ -2462,7 +2462,7 @@ mmorph =
       { version = "7.0.0";
 
         dependencies =
-          [ free functors transformers 
+          [ free functors transformers
           ];
       };
   };
@@ -2477,7 +2477,7 @@ monad-control =
       { version = "5.0.0";
 
         dependencies =
-          [ aff freet identity lists 
+          [ aff freet identity lists
           ];
       };
   };
@@ -2492,7 +2492,7 @@ monad-logger =
       { version = "1.3.1";
 
         dependencies =
-          [ aff ansi argonaut arrays console control effect foldable-traversable foreign-object integers js-date maybe newtype ordered-collections prelude strings transformers tuples 
+          [ aff ansi argonaut arrays console control effect foldable-traversable foreign-object integers js-date maybe newtype ordered-collections prelude strings transformers tuples
           ];
       };
   };
@@ -2507,7 +2507,7 @@ monad-loops =
       { version = "0.5.0";
 
         dependencies =
-          [ lists maybe prelude tailrec tuples 
+          [ lists maybe prelude tailrec tuples
           ];
       };
   };
@@ -2522,7 +2522,7 @@ monad-unlift =
       { version = "1.0.1";
 
         dependencies =
-          [ monad-control 
+          [ monad-control
           ];
       };
   };
@@ -2537,7 +2537,7 @@ monoid-extras =
       { version = "0.0.1";
 
         dependencies =
-          [ console effect foldable-traversable maybe prelude profunctor profunctor-lenses tuples 
+          [ console effect foldable-traversable maybe prelude profunctor profunctor-lenses tuples
           ];
       };
   };
@@ -2552,7 +2552,7 @@ monoidal =
       { version = "0.16.0";
 
         dependencies =
-          [ either profunctor these tuples 
+          [ either profunctor these tuples
           ];
       };
   };
@@ -2567,7 +2567,7 @@ morello =
       { version = "0.3.2";
 
         dependencies =
-          [ arrays barlow-lens foldable-traversable heterogeneous heterogeneous-extrablatt newtype prelude profunctor profunctor-lenses record tuples typelevel-prelude validation 
+          [ arrays barlow-lens foldable-traversable heterogeneous heterogeneous-extrablatt newtype prelude profunctor profunctor-lenses record tuples typelevel-prelude validation
           ];
       };
   };
@@ -2582,7 +2582,7 @@ motsunabe =
       { version = "2.0.0";
 
         dependencies =
-          [ lists strings 
+          [ lists strings
           ];
       };
   };
@@ -2597,7 +2597,7 @@ nano-id =
       { version = "1.1.0";
 
         dependencies =
-          [ aff effect lists maybe prelude random spec strings stringutils 
+          [ aff effect lists maybe prelude random spec strings stringutils
           ];
       };
   };
@@ -2612,7 +2612,7 @@ naturals =
       { version = "3.0.0";
 
         dependencies =
-          [ enums maybe prelude 
+          [ enums maybe prelude
           ];
       };
   };
@@ -2627,7 +2627,7 @@ nested-functor =
       { version = "0.2.1";
 
         dependencies =
-          [ prelude type-equality 
+          [ prelude type-equality
           ];
       };
   };
@@ -2642,7 +2642,7 @@ newtype =
       { version = "5.0.0";
 
         dependencies =
-          [ prelude safe-coerce 
+          [ prelude safe-coerce
           ];
       };
   };
@@ -2657,7 +2657,7 @@ node-buffer =
       { version = "8.0.0";
 
         dependencies =
-          [ arraybuffer-types effect maybe st unsafe-coerce 
+          [ arraybuffer-types effect maybe st unsafe-coerce
           ];
       };
   };
@@ -2672,7 +2672,7 @@ node-buffer-blob =
       { version = "1.0.0";
 
         dependencies =
-          [ aff-promise arraybuffer-types arrays console effect maybe media-types newtype node-buffer nullable prelude web-streams 
+          [ aff-promise arraybuffer-types arrays console effect maybe media-types newtype node-buffer nullable prelude web-streams
           ];
       };
   };
@@ -2687,7 +2687,7 @@ node-child-process =
       { version = "9.0.0";
 
         dependencies =
-          [ exceptions foreign foreign-object functions node-fs node-streams nullable posix-types unsafe-coerce 
+          [ exceptions foreign foreign-object functions node-fs node-streams nullable posix-types unsafe-coerce
           ];
       };
   };
@@ -2702,7 +2702,7 @@ node-fs =
       { version = "8.0.0";
 
         dependencies =
-          [ datetime effect either enums exceptions functions integers js-date maybe node-buffer node-path node-streams nullable partial prelude strings unsafe-coerce 
+          [ datetime effect either enums exceptions functions integers js-date maybe node-buffer node-path node-streams nullable partial prelude strings unsafe-coerce
           ];
       };
   };
@@ -2717,7 +2717,7 @@ node-fs-aff =
       { version = "9.0.0";
 
         dependencies =
-          [ aff either node-fs node-path 
+          [ aff either node-fs node-path
           ];
       };
   };
@@ -2732,7 +2732,7 @@ node-http =
       { version = "8.0.0";
 
         dependencies =
-          [ arraybuffer-types contravariant effect foreign foreign-object maybe node-buffer node-net node-streams node-url nullable options prelude unsafe-coerce 
+          [ arraybuffer-types contravariant effect foreign foreign-object maybe node-buffer node-net node-streams node-url nullable options prelude unsafe-coerce
           ];
       };
   };
@@ -2747,7 +2747,7 @@ node-net =
       { version = "4.0.0";
 
         dependencies =
-          [ effect either exceptions foreign maybe node-buffer node-fs nullable options prelude transformers 
+          [ effect either exceptions foreign maybe node-buffer node-fs nullable options prelude transformers
           ];
       };
   };
@@ -2762,7 +2762,7 @@ node-path =
       { version = "5.0.0";
 
         dependencies =
-          [ effect 
+          [ effect
           ];
       };
   };
@@ -2777,7 +2777,7 @@ node-process =
       { version = "10.0.0";
 
         dependencies =
-          [ effect foreign-object maybe node-streams posix-types prelude unsafe-coerce 
+          [ effect foreign-object maybe node-streams posix-types prelude unsafe-coerce
           ];
       };
   };
@@ -2792,7 +2792,7 @@ node-readline =
       { version = "7.0.0";
 
         dependencies =
-          [ effect foreign node-process node-streams options prelude 
+          [ effect foreign node-process node-streams options prelude
           ];
       };
   };
@@ -2807,7 +2807,7 @@ node-streams =
       { version = "7.0.0";
 
         dependencies =
-          [ effect either exceptions node-buffer nullable prelude 
+          [ effect either exceptions node-buffer nullable prelude
           ];
       };
   };
@@ -2822,7 +2822,7 @@ node-streams-aff =
       { version = "4.0.0";
 
         dependencies =
-          [ aff arrays effect either exceptions maybe node-buffer node-streams prelude st tuples 
+          [ aff arrays effect either exceptions maybe node-buffer node-streams prelude st tuples
           ];
       };
   };
@@ -2837,7 +2837,7 @@ node-url =
       { version = "6.0.0";
 
         dependencies =
-          [ nullable 
+          [ nullable
           ];
       };
   };
@@ -2852,7 +2852,7 @@ nonempty =
       { version = "7.0.0";
 
         dependencies =
-          [ control foldable-traversable maybe prelude tuples unfoldable 
+          [ control foldable-traversable maybe prelude tuples unfoldable
           ];
       };
   };
@@ -2867,7 +2867,7 @@ now =
       { version = "6.0.0";
 
         dependencies =
-          [ datetime effect 
+          [ datetime effect
           ];
       };
   };
@@ -2882,7 +2882,7 @@ npm-package-json =
       { version = "2.0.0";
 
         dependencies =
-          [ argonaut control either foreign-object maybe ordered-collections prelude 
+          [ argonaut control either foreign-object maybe ordered-collections prelude
           ];
       };
   };
@@ -2897,7 +2897,7 @@ nullable =
       { version = "6.0.0";
 
         dependencies =
-          [ effect functions maybe 
+          [ effect functions maybe
           ];
       };
   };
@@ -2912,7 +2912,7 @@ numbers =
       { version = "9.0.0";
 
         dependencies =
-          [ functions maybe 
+          [ functions maybe
           ];
       };
   };
@@ -2927,7 +2927,7 @@ ocarina =
       { version = "1.3.0";
 
         dependencies =
-          [ aff aff-promise arraybuffer-types avar bolson control convertable-options effect either exceptions fast-vect foldable-traversable foreign foreign-object homogeneous hyrule indexed-monad integers js-timers lists maybe newtype numbers ordered-collections prelude profunctor profunctor-lenses random refs safe-coerce simple-json sized-vectors tuples type-equality typelevel typelevel-prelude unsafe-coerce unsafe-reference variant web-events web-file web-html 
+          [ aff aff-promise arraybuffer-types avar bolson control convertable-options effect either exceptions fast-vect foldable-traversable foreign foreign-object homogeneous hyrule indexed-monad integers js-timers lists maybe newtype numbers ordered-collections prelude profunctor profunctor-lenses random refs safe-coerce simple-json sized-vectors tuples type-equality typelevel typelevel-prelude unsafe-coerce unsafe-reference variant web-events web-file web-html
           ];
       };
   };
@@ -2942,7 +2942,7 @@ open-folds =
       { version = "6.3.0";
 
         dependencies =
-          [ bifunctors console control distributive effect either foldable-traversable identity invariant maybe newtype ordered-collections prelude profunctor psci-support tuples 
+          [ bifunctors console control distributive effect either foldable-traversable identity invariant maybe newtype ordered-collections prelude profunctor psci-support tuples
           ];
       };
   };
@@ -2957,7 +2957,7 @@ open-memoize =
       { version = "6.1.0";
 
         dependencies =
-          [ console effect either integers lazy lists maybe partial prelude psci-support strings tuples 
+          [ console effect either integers lazy lists maybe partial prelude psci-support strings tuples
           ];
       };
   };
@@ -2972,7 +2972,7 @@ open-pairing =
       { version = "6.1.0";
 
         dependencies =
-          [ console control effect either free functors identity newtype prelude psci-support transformers tuples 
+          [ console control effect either free functors identity newtype prelude psci-support transformers tuples
           ];
       };
   };
@@ -2987,7 +2987,7 @@ options =
       { version = "7.0.0";
 
         dependencies =
-          [ contravariant foreign foreign-object maybe tuples 
+          [ contravariant foreign foreign-object maybe tuples
           ];
       };
   };
@@ -3002,7 +3002,7 @@ optparse =
       { version = "5.0.0";
 
         dependencies =
-          [ aff arrays bifunctors console control effect either enums exists exitcodes foldable-traversable free gen integers lazy lists maybe newtype node-buffer node-process node-streams nonempty numbers open-memoize partial prelude quickcheck strings tailrec transformers tuples 
+          [ aff arrays bifunctors console control effect either enums exists exitcodes foldable-traversable free gen integers lazy lists maybe newtype node-buffer node-process node-streams nonempty numbers open-memoize partial prelude quickcheck strings tailrec transformers tuples
           ];
       };
   };
@@ -3017,7 +3017,7 @@ ordered-collections =
       { version = "3.0.0";
 
         dependencies =
-          [ arrays foldable-traversable gen lists maybe partial prelude st tailrec tuples unfoldable 
+          [ arrays foldable-traversable gen lists maybe partial prelude st tailrec tuples unfoldable
           ];
       };
   };
@@ -3032,7 +3032,7 @@ ordered-set =
       { version = "0.4.0";
 
         dependencies =
-          [ argonaut-codecs arrays partial prelude unfoldable 
+          [ argonaut-codecs arrays partial prelude unfoldable
           ];
       };
   };
@@ -3047,7 +3047,7 @@ orders =
       { version = "6.0.0";
 
         dependencies =
-          [ newtype prelude 
+          [ newtype prelude
           ];
       };
   };
@@ -3062,7 +3062,7 @@ pairs =
       { version = "9.0.0";
 
         dependencies =
-          [ console distributive foldable-traversable quickcheck 
+          [ console distributive foldable-traversable quickcheck
           ];
       };
   };
@@ -3077,7 +3077,7 @@ parallel =
       { version = "6.0.0";
 
         dependencies =
-          [ control effect either foldable-traversable functors maybe newtype prelude profunctor refs transformers 
+          [ control effect either foldable-traversable functors maybe newtype prelude profunctor refs transformers
           ];
       };
   };
@@ -3092,7 +3092,7 @@ parsing =
       { version = "10.0.0";
 
         dependencies =
-          [ arrays either foldable-traversable identity integers lists maybe nullable prelude strings transformers unicode 
+          [ arrays either foldable-traversable identity integers lists maybe nullable prelude strings transformers unicode
           ];
       };
   };
@@ -3107,7 +3107,7 @@ parsing-dataview =
       { version = "3.1.0";
 
         dependencies =
-          [ arraybuffer arraybuffer-types effect float32 maybe parsing prelude transformers tuples uint 
+          [ arraybuffer arraybuffer-types effect float32 maybe parsing prelude transformers tuples uint
           ];
       };
   };
@@ -3122,7 +3122,7 @@ partial =
       { version = "4.0.0";
 
         dependencies =
-          [ 
+          [
           ];
       };
   };
@@ -3137,7 +3137,7 @@ pathy =
       { version = "9.0.0";
 
         dependencies =
-          [ console exceptions lists partial profunctor strings transformers typelevel-prelude unsafe-coerce 
+          [ console exceptions lists partial profunctor strings transformers typelevel-prelude unsafe-coerce
           ];
       };
   };
@@ -3152,7 +3152,7 @@ pha =
       { version = "0.9.0";
 
         dependencies =
-          [ aff arrays bifunctors datetime effect foldable-traversable free integers maybe prelude profunctor-lenses refs tailrec transformers tuples unsafe-coerce unsafe-reference web-dom web-events web-html web-pointerevents web-uievents 
+          [ aff arrays bifunctors datetime effect foldable-traversable free integers maybe prelude profunctor-lenses refs tailrec transformers tuples unsafe-coerce unsafe-reference web-dom web-events web-html web-pointerevents web-uievents
           ];
       };
   };
@@ -3167,7 +3167,7 @@ phaser =
       { version = "0.6.0";
 
         dependencies =
-          [ canvas console effect maybe nullable options prelude web-html 
+          [ canvas console effect maybe nullable options prelude web-html
           ];
       };
   };
@@ -3182,7 +3182,7 @@ pipes =
       { version = "8.0.0";
 
         dependencies =
-          [ aff lists mmorph prelude tailrec transformers tuples 
+          [ aff lists mmorph prelude tailrec transformers tuples
           ];
       };
   };
@@ -3197,7 +3197,7 @@ point-free =
       { version = "1.0.0";
 
         dependencies =
-          [ prelude 
+          [ prelude
           ];
       };
   };
@@ -3212,7 +3212,7 @@ pointed-list =
       { version = "0.5.1";
 
         dependencies =
-          [ lists prelude 
+          [ lists prelude
           ];
       };
   };
@@ -3227,7 +3227,7 @@ polymorphic-vectors =
       { version = "4.0.0";
 
         dependencies =
-          [ distributive foldable-traversable numbers prelude record safe-coerce type-equality typelevel-prelude 
+          [ distributive foldable-traversable numbers prelude record safe-coerce type-equality typelevel-prelude
           ];
       };
   };
@@ -3242,7 +3242,7 @@ posix-types =
       { version = "6.0.0";
 
         dependencies =
-          [ maybe prelude 
+          [ maybe prelude
           ];
       };
   };
@@ -3257,7 +3257,7 @@ precise =
       { version = "6.0.0";
 
         dependencies =
-          [ arrays console effect exceptions gen integers lists numbers prelude strings 
+          [ arrays console effect exceptions gen integers lists numbers prelude strings
           ];
       };
   };
@@ -3272,7 +3272,7 @@ precise-datetime =
       { version = "7.0.0";
 
         dependencies =
-          [ arrays datetime decimals either enums foldable-traversable formatters integers js-date lists maybe newtype numbers prelude strings tuples unicode 
+          [ arrays datetime decimals either enums foldable-traversable formatters integers js-date lists maybe newtype numbers prelude strings tuples unicode
           ];
       };
   };
@@ -3287,7 +3287,7 @@ prelude =
       { version = "6.0.1";
 
         dependencies =
-          [ 
+          [
           ];
       };
   };
@@ -3302,7 +3302,7 @@ prettier-printer =
       { version = "3.0.0";
 
         dependencies =
-          [ console lists prelude strings tuples 
+          [ console lists prelude strings tuples
           ];
       };
   };
@@ -3317,7 +3317,7 @@ profunctor =
       { version = "6.0.0";
 
         dependencies =
-          [ control distributive either exists invariant newtype prelude tuples 
+          [ control distributive either exists invariant newtype prelude tuples
           ];
       };
   };
@@ -3332,7 +3332,7 @@ profunctor-lenses =
       { version = "8.0.0";
 
         dependencies =
-          [ arrays bifunctors const control distributive either foldable-traversable foreign-object functors identity lists maybe newtype ordered-collections partial prelude profunctor record transformers tuples 
+          [ arrays bifunctors const control distributive either foldable-traversable foreign-object functors identity lists maybe newtype ordered-collections partial prelude profunctor record transformers tuples
           ];
       };
   };
@@ -3347,7 +3347,7 @@ protobuf =
       { version = "4.0.0";
 
         dependencies =
-          [ arraybuffer arraybuffer-builder arraybuffer-types arrays control effect either enums exceptions float32 foldable-traversable functions int64 maybe newtype parsing parsing-dataview prelude record strings tailrec transformers tuples uint web-encoding 
+          [ arraybuffer arraybuffer-builder arraybuffer-types arrays control effect either enums exceptions float32 foldable-traversable functions int64 maybe newtype parsing parsing-dataview prelude record strings tailrec transformers tuples uint web-encoding
           ];
       };
   };
@@ -3362,7 +3362,7 @@ ps-cst =
       { version = "1.2.0";
 
         dependencies =
-          [ ansi console dodo-printer effect node-fs-aff node-path psci-support record strings 
+          [ ansi console dodo-printer effect node-fs-aff node-path psci-support record strings
           ];
       };
   };
@@ -3377,7 +3377,7 @@ psa-utils =
       { version = "8.0.0";
 
         dependencies =
-          [ ansi argonaut-codecs argonaut-core arrays console control effect either foldable-traversable maybe node-path ordered-collections prelude strings tuples unsafe-coerce 
+          [ ansi argonaut-codecs argonaut-core arrays console control effect either foldable-traversable maybe node-path ordered-collections prelude strings tuples unsafe-coerce
           ];
       };
   };
@@ -3392,7 +3392,7 @@ psc-ide =
       { version = "19.0.0";
 
         dependencies =
-          [ aff argonaut arrays console maybe node-child-process node-fs parallel random 
+          [ aff argonaut arrays console maybe node-child-process node-fs parallel random
           ];
       };
   };
@@ -3407,7 +3407,7 @@ psci-support =
       { version = "6.0.0";
 
         dependencies =
-          [ console effect prelude 
+          [ console effect prelude
           ];
       };
   };
@@ -3422,7 +3422,7 @@ qualified-do =
       { version = "2.2.0";
 
         dependencies =
-          [ arrays control foldable-traversable parallel prelude unfoldable 
+          [ arrays control foldable-traversable parallel prelude unfoldable
           ];
       };
   };
@@ -3437,7 +3437,7 @@ quantities =
       { version = "12.1.0";
 
         dependencies =
-          [ decimals either foldable-traversable lists maybe newtype nonempty numbers pairs prelude tuples 
+          [ decimals either foldable-traversable lists maybe newtype nonempty numbers pairs prelude tuples
           ];
       };
   };
@@ -3452,7 +3452,7 @@ quickcheck =
       { version = "8.0.1";
 
         dependencies =
-          [ arrays console control effect either enums exceptions foldable-traversable gen identity integers lazy lcg lists maybe newtype nonempty numbers partial prelude record st strings tailrec transformers tuples unfoldable 
+          [ arrays console control effect either enums exceptions foldable-traversable gen identity integers lazy lcg lists maybe newtype nonempty numbers partial prelude record st strings tailrec transformers tuples unfoldable
           ];
       };
   };
@@ -3467,7 +3467,7 @@ quickcheck-combinators =
       { version = "0.1.3";
 
         dependencies =
-          [ quickcheck typelevel 
+          [ quickcheck typelevel
           ];
       };
   };
@@ -3482,7 +3482,7 @@ quickcheck-laws =
       { version = "7.0.0";
 
         dependencies =
-          [ enums quickcheck 
+          [ enums quickcheck
           ];
       };
   };
@@ -3497,7 +3497,7 @@ quickcheck-utf8 =
       { version = "0.0.0";
 
         dependencies =
-          [ quickcheck 
+          [ quickcheck
           ];
       };
   };
@@ -3512,7 +3512,7 @@ quotient =
       { version = "3.0.0";
 
         dependencies =
-          [ prelude quickcheck 
+          [ prelude quickcheck
           ];
       };
   };
@@ -3527,7 +3527,7 @@ random =
       { version = "6.0.0";
 
         dependencies =
-          [ effect integers 
+          [ effect integers
           ];
       };
   };
@@ -3542,7 +3542,7 @@ rationals =
       { version = "5.0.0";
 
         dependencies =
-          [ integers prelude 
+          [ integers prelude
           ];
       };
   };
@@ -3557,7 +3557,7 @@ react =
       { version = "10.0.1";
 
         dependencies =
-          [ effect exceptions maybe nullable prelude typelevel-prelude unsafe-coerce 
+          [ effect exceptions maybe nullable prelude typelevel-prelude unsafe-coerce
           ];
       };
   };
@@ -3572,7 +3572,7 @@ react-basic =
       { version = "17.0.0";
 
         dependencies =
-          [ effect prelude record 
+          [ effect prelude record
           ];
       };
   };
@@ -3587,7 +3587,7 @@ react-basic-classic =
       { version = "3.0.0";
 
         dependencies =
-          [ aff effect functions maybe nullable prelude react-basic 
+          [ aff effect functions maybe nullable prelude react-basic
           ];
       };
   };
@@ -3602,7 +3602,7 @@ react-basic-dnd =
       { version = "10.1.0";
 
         dependencies =
-          [ console effect maybe nullable prelude react-basic-hooks web-dom 
+          [ console effect maybe nullable prelude react-basic-hooks web-dom
           ];
       };
   };
@@ -3617,7 +3617,7 @@ react-basic-dom =
       { version = "6.0.0";
 
         dependencies =
-          [ arrays effect foldable-traversable foreign-object maybe nullable prelude react-basic record unsafe-coerce web-dom web-events web-file web-html 
+          [ arrays effect foldable-traversable foreign-object maybe nullable prelude react-basic record unsafe-coerce web-dom web-events web-file web-html
           ];
       };
   };
@@ -3632,7 +3632,7 @@ react-basic-emotion =
       { version = "7.0.0";
 
         dependencies =
-          [ arrays colors either foreign foreign-object functions integers numbers prelude react-basic strings transformers typelevel-prelude unsafe-coerce web-html 
+          [ arrays colors either foreign foreign-object functions integers numbers prelude react-basic strings transformers typelevel-prelude unsafe-coerce web-html
           ];
       };
   };
@@ -3647,7 +3647,7 @@ react-basic-hooks =
       { version = "8.0.0";
 
         dependencies =
-          [ aff aff-promise bifunctors console control datetime effect either exceptions foldable-traversable functions indexed-monad integers maybe newtype now nullable ordered-collections prelude react-basic refs tuples type-equality unsafe-coerce unsafe-reference web-html 
+          [ aff aff-promise bifunctors console control datetime effect either exceptions foldable-traversable functions indexed-monad integers maybe newtype now nullable ordered-collections prelude react-basic refs tuples type-equality unsafe-coerce unsafe-reference web-html
           ];
       };
   };
@@ -3662,7 +3662,7 @@ react-dom =
       { version = "8.0.0";
 
         dependencies =
-          [ effect react web-dom 
+          [ effect react web-dom
           ];
       };
   };
@@ -3677,7 +3677,7 @@ react-halo =
       { version = "3.0.0";
 
         dependencies =
-          [ aff bifunctors effect either foldable-traversable free freeap halogen-subscriptions maybe newtype ordered-collections parallel prelude react-basic-hooks refs tailrec transformers tuples unsafe-reference 
+          [ aff bifunctors effect either foldable-traversable free freeap halogen-subscriptions maybe newtype ordered-collections parallel prelude react-basic-hooks refs tailrec transformers tuples unsafe-reference
           ];
       };
   };
@@ -3692,7 +3692,7 @@ react-icons =
       { version = "1.0.8";
 
         dependencies =
-          [ react-basic react-basic-dom unsafe-coerce 
+          [ react-basic react-basic-dom unsafe-coerce
           ];
       };
   };
@@ -3707,7 +3707,7 @@ read =
       { version = "1.0.1";
 
         dependencies =
-          [ maybe prelude strings 
+          [ maybe prelude strings
           ];
       };
   };
@@ -3722,7 +3722,7 @@ record =
       { version = "4.0.0";
 
         dependencies =
-          [ functions prelude unsafe-coerce 
+          [ functions prelude unsafe-coerce
           ];
       };
   };
@@ -3737,7 +3737,7 @@ refined =
       { version = "1.0.0";
 
         dependencies =
-          [ argonaut effect prelude quickcheck typelevel 
+          [ argonaut effect prelude quickcheck typelevel
           ];
       };
   };
@@ -3752,7 +3752,7 @@ refs =
       { version = "6.0.0";
 
         dependencies =
-          [ effect prelude 
+          [ effect prelude
           ];
       };
   };
@@ -3767,7 +3767,7 @@ remotedata =
       { version = "5.0.0";
 
         dependencies =
-          [ bifunctors either profunctor-lenses 
+          [ bifunctors either profunctor-lenses
           ];
       };
   };
@@ -3782,7 +3782,7 @@ resource =
       { version = "2.0.1";
 
         dependencies =
-          [ aff console control effect newtype prelude psci-support refs 
+          [ aff console control effect newtype prelude psci-support refs
           ];
       };
   };
@@ -3797,7 +3797,7 @@ resourcet =
       { version = "1.0.0";
 
         dependencies =
-          [ aff effect foldable-traversable maybe ordered-collections parallel refs tailrec transformers tuples 
+          [ aff effect foldable-traversable maybe ordered-collections parallel refs tailrec transformers tuples
           ];
       };
   };
@@ -3812,7 +3812,7 @@ result =
       { version = "1.0.3";
 
         dependencies =
-          [ either foldable-traversable prelude 
+          [ either foldable-traversable prelude
           ];
       };
   };
@@ -3827,7 +3827,7 @@ return =
       { version = "0.2.0";
 
         dependencies =
-          [ foldable-traversable point-free prelude 
+          [ foldable-traversable point-free prelude
           ];
       };
   };
@@ -3842,7 +3842,7 @@ ring-modules =
       { version = "5.0.1";
 
         dependencies =
-          [ prelude 
+          [ prelude
           ];
       };
   };
@@ -3857,7 +3857,7 @@ rito =
       { version = "0.1.0";
 
         dependencies =
-          [ aff aff-promise arrays bolson control convertable-options deku effect either exceptions exists fast-vect foldable-traversable foreign foreign-object heterogeneous hyrule integers maybe newtype numbers prelude profunctor random record refs safe-coerce tuples unsafe-coerce variant web-dom web-html web-touchevents web-uievents 
+          [ aff aff-promise arrays bolson control convertable-options deku effect either exceptions exists fast-vect foldable-traversable foreign foreign-object heterogeneous hyrule integers maybe newtype numbers prelude profunctor random record refs safe-coerce tuples unsafe-coerce variant web-dom web-html web-touchevents web-uievents
           ];
       };
   };
@@ -3872,7 +3872,7 @@ routing =
       { version = "11.0.0";
 
         dependencies =
-          [ aff console control effect either foldable-traversable integers js-uri lists maybe numbers partial prelude semirings tuples validation web-html 
+          [ aff console control effect either foldable-traversable integers js-uri lists maybe numbers partial prelude semirings tuples validation web-html
           ];
       };
   };
@@ -3887,7 +3887,7 @@ routing-duplex =
       { version = "0.6.0";
 
         dependencies =
-          [ arrays control either js-uri lazy numbers prelude profunctor record strings typelevel-prelude 
+          [ arrays control either js-uri lazy numbers prelude profunctor record strings typelevel-prelude
           ];
       };
   };
@@ -3902,7 +3902,7 @@ run =
       { version = "5.0.0";
 
         dependencies =
-          [ aff effect either free maybe newtype prelude profunctor tailrec tuples type-equality typelevel-prelude unsafe-coerce variant 
+          [ aff effect either free maybe newtype prelude profunctor tailrec tuples type-equality typelevel-prelude unsafe-coerce variant
           ];
       };
   };
@@ -3917,7 +3917,7 @@ safe-coerce =
       { version = "2.0.0";
 
         dependencies =
-          [ unsafe-coerce 
+          [ unsafe-coerce
           ];
       };
   };
@@ -3932,7 +3932,7 @@ safely =
       { version = "4.0.1";
 
         dependencies =
-          [ freet lists 
+          [ freet lists
           ];
       };
   };
@@ -3947,7 +3947,7 @@ selection-foldable =
       { version = "0.2.0";
 
         dependencies =
-          [ filterable foldable-traversable maybe prelude 
+          [ filterable foldable-traversable maybe prelude
           ];
       };
   };
@@ -3962,7 +3962,7 @@ semirings =
       { version = "7.0.0";
 
         dependencies =
-          [ foldable-traversable lists newtype prelude 
+          [ foldable-traversable lists newtype prelude
           ];
       };
   };
@@ -3977,7 +3977,7 @@ signal =
       { version = "13.0.0";
 
         dependencies =
-          [ aff effect either foldable-traversable maybe prelude 
+          [ aff effect either foldable-traversable maybe prelude
           ];
       };
   };
@@ -3992,7 +3992,7 @@ simple-emitter =
       { version = "2.0.0";
 
         dependencies =
-          [ ordered-collections refs 
+          [ ordered-collections refs
           ];
       };
   };
@@ -4007,7 +4007,7 @@ simple-json =
       { version = "9.0.0";
 
         dependencies =
-          [ arrays exceptions foreign foreign-object nullable prelude record typelevel-prelude variant 
+          [ arrays exceptions foreign foreign-object nullable prelude record typelevel-prelude variant
           ];
       };
   };
@@ -4022,7 +4022,7 @@ sized-matrices =
       { version = "1.0.0";
 
         dependencies =
-          [ arrays distributive foldable-traversable maybe prelude sized-vectors strings typelevel unfoldable vectorfield 
+          [ arrays distributive foldable-traversable maybe prelude sized-vectors strings typelevel unfoldable vectorfield
           ];
       };
   };
@@ -4037,7 +4037,7 @@ sized-vectors =
       { version = "5.0.2";
 
         dependencies =
-          [ argonaut arrays distributive foldable-traversable maybe prelude quickcheck typelevel unfoldable 
+          [ argonaut arrays distributive foldable-traversable maybe prelude quickcheck typelevel unfoldable
           ];
       };
   };
@@ -4052,7 +4052,7 @@ slug =
       { version = "3.0.3";
 
         dependencies =
-          [ argonaut-codecs maybe prelude strings unicode 
+          [ argonaut-codecs maybe prelude strings unicode
           ];
       };
   };
@@ -4067,7 +4067,7 @@ soundfonts =
       { version = "4.1.0";
 
         dependencies =
-          [ aff affjax affjax-web argonaut-core arraybuffer-types arrays b64 bifunctors console effect either exceptions foldable-traversable foreign-object http-methods integers lists maybe midi ordered-collections parallel partial prelude strings transformers tuples 
+          [ aff affjax affjax-web argonaut-core arraybuffer-types arrays b64 bifunctors console effect either exceptions foldable-traversable foreign-object http-methods integers lists maybe midi ordered-collections parallel partial prelude strings transformers tuples
           ];
       };
   };
@@ -4082,7 +4082,7 @@ sparse-matrices =
       { version = "1.2.1";
 
         dependencies =
-          [ console effect prelude sparse-polynomials 
+          [ console effect prelude sparse-polynomials
           ];
       };
   };
@@ -4097,7 +4097,7 @@ sparse-polynomials =
       { version = "1.0.5";
 
         dependencies =
-          [ cartesian console effect ordered-collections prelude rationals tuples 
+          [ cartesian console effect ordered-collections prelude rationals tuples
           ];
       };
   };
@@ -4112,7 +4112,7 @@ spec =
       { version = "7.0.0";
 
         dependencies =
-          [ aff ansi avar console exceptions foldable-traversable fork now pipes prelude strings transformers 
+          [ aff ansi avar console exceptions foldable-traversable fork now pipes prelude strings transformers
           ];
       };
   };
@@ -4127,7 +4127,7 @@ spec-discovery =
       { version = "8.0.0";
 
         dependencies =
-          [ aff aff-promise arrays console effect foldable-traversable node-fs prelude spec 
+          [ aff aff-promise arrays console effect foldable-traversable node-fs prelude spec
           ];
       };
   };
@@ -4142,7 +4142,7 @@ spec-quickcheck =
       { version = "5.0.0";
 
         dependencies =
-          [ aff prelude quickcheck random spec 
+          [ aff prelude quickcheck random spec
           ];
       };
   };
@@ -4157,7 +4157,7 @@ ssrs =
       { version = "1.0.0";
 
         dependencies =
-          [ dissect either fixed-points free lists prelude safe-coerce tailrec tuples variant 
+          [ dissect either fixed-points free lists prelude safe-coerce tailrec tuples variant
           ];
       };
   };
@@ -4172,7 +4172,7 @@ st =
       { version = "6.0.0";
 
         dependencies =
-          [ partial prelude tailrec unsafe-coerce 
+          [ partial prelude tailrec unsafe-coerce
           ];
       };
   };
@@ -4187,7 +4187,7 @@ strictlypositiveint =
       { version = "1.0.1";
 
         dependencies =
-          [ prelude 
+          [ prelude
           ];
       };
   };
@@ -4202,7 +4202,7 @@ string-parsers =
       { version = "8.0.0";
 
         dependencies =
-          [ arrays bifunctors control either foldable-traversable lists maybe prelude strings tailrec 
+          [ arrays bifunctors control either foldable-traversable lists maybe prelude strings tailrec
           ];
       };
   };
@@ -4217,7 +4217,7 @@ strings =
       { version = "6.0.1";
 
         dependencies =
-          [ arrays control either enums foldable-traversable gen integers maybe newtype nonempty partial prelude tailrec tuples unfoldable unsafe-coerce 
+          [ arrays control either enums foldable-traversable gen integers maybe newtype nonempty partial prelude tailrec tuples unfoldable unsafe-coerce
           ];
       };
   };
@@ -4232,7 +4232,7 @@ strings-extra =
       { version = "4.0.0";
 
         dependencies =
-          [ arrays foldable-traversable maybe prelude strings unicode 
+          [ arrays foldable-traversable maybe prelude strings unicode
           ];
       };
   };
@@ -4247,7 +4247,7 @@ stringutils =
       { version = "0.0.12";
 
         dependencies =
-          [ arrays integers maybe partial prelude strings 
+          [ arrays integers maybe partial prelude strings
           ];
       };
   };
@@ -4262,7 +4262,7 @@ substitute =
       { version = "0.2.3";
 
         dependencies =
-          [ foldable-traversable foreign-object maybe prelude return strings 
+          [ foldable-traversable foreign-object maybe prelude return strings
           ];
       };
   };
@@ -4277,7 +4277,7 @@ sunde =
       { version = "3.0.0";
 
         dependencies =
-          [ aff effect node-child-process prelude 
+          [ aff effect node-child-process prelude
           ];
       };
   };
@@ -4292,7 +4292,7 @@ supply =
       { version = "0.2.0";
 
         dependencies =
-          [ console control effect lazy prelude refs tuples 
+          [ console control effect lazy prelude refs tuples
           ];
       };
   };
@@ -4307,7 +4307,7 @@ systemd-journald =
       { version = "0.3.0";
 
         dependencies =
-          [ console functions prelude 
+          [ console functions prelude
           ];
       };
   };
@@ -4322,7 +4322,7 @@ tailrec =
       { version = "6.0.0";
 
         dependencies =
-          [ bifunctors effect either identity maybe partial prelude refs 
+          [ bifunctors effect either identity maybe partial prelude refs
           ];
       };
   };
@@ -4337,7 +4337,7 @@ test-unit =
       { version = "17.0.0";
 
         dependencies =
-          [ aff avar effect either free js-timers lists prelude quickcheck strings 
+          [ aff avar effect either free js-timers lists prelude quickcheck strings
           ];
       };
   };
@@ -4352,7 +4352,7 @@ thermite =
       { version = "6.3.1";
 
         dependencies =
-          [ aff coroutines freet profunctor-lenses react 
+          [ aff coroutines freet profunctor-lenses react
           ];
       };
   };
@@ -4367,7 +4367,7 @@ thermite-dom =
       { version = "0.3.1";
 
         dependencies =
-          [ react react-dom thermite web-html 
+          [ react react-dom thermite web-html
           ];
       };
   };
@@ -4382,7 +4382,7 @@ these =
       { version = "6.0.0";
 
         dependencies =
-          [ arrays gen lists quickcheck quickcheck-laws tuples 
+          [ arrays gen lists quickcheck quickcheck-laws tuples
           ];
       };
   };
@@ -4397,7 +4397,7 @@ transformers =
       { version = "6.0.0";
 
         dependencies =
-          [ control distributive effect either exceptions foldable-traversable identity lazy maybe newtype prelude tailrec tuples unfoldable 
+          [ control distributive effect either exceptions foldable-traversable identity lazy maybe newtype prelude tailrec tuples unfoldable
           ];
       };
   };
@@ -4412,7 +4412,7 @@ tree-rose =
       { version = "4.0.2";
 
         dependencies =
-          [ control foldable-traversable free lists maybe prelude tailrec 
+          [ control foldable-traversable free lists maybe prelude tailrec
           ];
       };
   };
@@ -4427,7 +4427,7 @@ tuples =
       { version = "7.0.0";
 
         dependencies =
-          [ control invariant prelude 
+          [ control invariant prelude
           ];
       };
   };
@@ -4442,7 +4442,7 @@ two-or-more =
       { version = "1.0.0";
 
         dependencies =
-          [ arrays console effect foldable-traversable maybe partial prelude psci-support tuples 
+          [ arrays console effect foldable-traversable maybe partial prelude psci-support tuples
           ];
       };
   };
@@ -4457,7 +4457,7 @@ type-equality =
       { version = "4.0.1";
 
         dependencies =
-          [ 
+          [
           ];
       };
   };
@@ -4472,7 +4472,7 @@ typelevel =
       { version = "6.0.0";
 
         dependencies =
-          [ partial prelude tuples typelevel-prelude unsafe-coerce 
+          [ partial prelude tuples typelevel-prelude unsafe-coerce
           ];
       };
   };
@@ -4487,7 +4487,7 @@ typelevel-lists =
       { version = "2.1.0";
 
         dependencies =
-          [ prelude tuples typelevel-peano typelevel-prelude unsafe-coerce 
+          [ prelude tuples typelevel-peano typelevel-prelude unsafe-coerce
           ];
       };
   };
@@ -4502,7 +4502,7 @@ typelevel-peano =
       { version = "1.0.1";
 
         dependencies =
-          [ arrays console effect prelude psci-support typelevel-prelude unsafe-coerce 
+          [ arrays console effect prelude psci-support typelevel-prelude unsafe-coerce
           ];
       };
   };
@@ -4517,7 +4517,7 @@ typelevel-prelude =
       { version = "7.0.0";
 
         dependencies =
-          [ prelude type-equality 
+          [ prelude type-equality
           ];
       };
   };
@@ -4532,7 +4532,7 @@ typelevel-rows =
       { version = "0.1.0";
 
         dependencies =
-          [ prelude 
+          [ prelude
           ];
       };
   };
@@ -4547,7 +4547,7 @@ uint =
       { version = "7.0.0";
 
         dependencies =
-          [ effect enums gen maybe numbers prelude 
+          [ effect enums gen maybe numbers prelude
           ];
       };
   };
@@ -4562,7 +4562,7 @@ ulid =
       { version = "3.0.1";
 
         dependencies =
-          [ effect functions maybe nullable prelude 
+          [ effect functions maybe nullable prelude
           ];
       };
   };
@@ -4577,7 +4577,7 @@ uncurried-transformers =
       { version = "1.1.0";
 
         dependencies =
-          [ control effect either functions identity prelude safe-coerce tailrec transformers tuples 
+          [ control effect either functions identity prelude safe-coerce tailrec transformers tuples
           ];
       };
   };
@@ -4592,7 +4592,7 @@ undefined-is-not-a-problem =
       { version = "1.1.0";
 
         dependencies =
-          [ arrays ps-pkgs."assert" effect either foreign maybe newtype prelude random tuples type-equality unsafe-coerce 
+          [ arrays ps-pkgs."assert" effect either foreign maybe newtype prelude random tuples type-equality unsafe-coerce
           ];
       };
   };
@@ -4607,7 +4607,7 @@ unfoldable =
       { version = "6.0.0";
 
         dependencies =
-          [ foldable-traversable maybe partial prelude tuples 
+          [ foldable-traversable maybe partial prelude tuples
           ];
       };
   };
@@ -4622,7 +4622,7 @@ unicode =
       { version = "6.0.0";
 
         dependencies =
-          [ foldable-traversable maybe strings 
+          [ foldable-traversable maybe strings
           ];
       };
   };
@@ -4637,7 +4637,7 @@ unlift =
       { version = "1.0.1";
 
         dependencies =
-          [ aff effect either freet identity lists maybe monad-control prelude st transformers tuples 
+          [ aff effect either freet identity lists maybe monad-control prelude st transformers tuples
           ];
       };
   };
@@ -4652,7 +4652,7 @@ unordered-collections =
       { version = "3.0.0";
 
         dependencies =
-          [ arrays enums functions integers lists prelude record tuples typelevel-prelude 
+          [ arrays enums functions integers lists prelude record tuples typelevel-prelude
           ];
       };
   };
@@ -4667,7 +4667,7 @@ unsafe-coerce =
       { version = "6.0.0";
 
         dependencies =
-          [ 
+          [
           ];
       };
   };
@@ -4682,7 +4682,7 @@ unsafe-reference =
       { version = "5.0.0";
 
         dependencies =
-          [ prelude 
+          [ prelude
           ];
       };
   };
@@ -4697,7 +4697,7 @@ untagged-union =
       { version = "1.0.0";
 
         dependencies =
-          [ ps-pkgs."assert" console effect foreign foreign-object literals maybe newtype psci-support tuples unsafe-coerce 
+          [ ps-pkgs."assert" console effect foreign foreign-object literals maybe newtype psci-support tuples unsafe-coerce
           ];
       };
   };
@@ -4712,7 +4712,7 @@ uri =
       { version = "9.0.0";
 
         dependencies =
-          [ arrays integers js-uri numbers parsing prelude profunctor-lenses these transformers unfoldable 
+          [ arrays integers js-uri numbers parsing prelude profunctor-lenses these transformers unfoldable
           ];
       };
   };
@@ -4727,7 +4727,7 @@ uuid =
       { version = "9.0.0";
 
         dependencies =
-          [ aff effect maybe partial prelude spec strings 
+          [ aff effect maybe partial prelude spec strings
           ];
       };
   };
@@ -4742,7 +4742,7 @@ validation =
       { version = "6.0.0";
 
         dependencies =
-          [ bifunctors control either foldable-traversable newtype prelude 
+          [ bifunctors control either foldable-traversable newtype prelude
           ];
       };
   };
@@ -4757,7 +4757,7 @@ variant =
       { version = "8.0.0";
 
         dependencies =
-          [ enums lists maybe partial prelude record tuples unsafe-coerce 
+          [ enums lists maybe partial prelude record tuples unsafe-coerce
           ];
       };
   };
@@ -4772,7 +4772,7 @@ vectorfield =
       { version = "1.0.1";
 
         dependencies =
-          [ console effect group prelude psci-support 
+          [ console effect group prelude psci-support
           ];
       };
   };
@@ -4787,7 +4787,7 @@ versions =
       { version = "7.0.0";
 
         dependencies =
-          [ control either foldable-traversable functions integers lists maybe orders parsing partial strings 
+          [ control either foldable-traversable functions integers lists maybe orders parsing partial strings
           ];
       };
   };
@@ -4802,7 +4802,7 @@ web-clipboard =
       { version = "4.0.0";
 
         dependencies =
-          [ web-html 
+          [ web-html
           ];
       };
   };
@@ -4817,7 +4817,7 @@ web-cssom =
       { version = "2.0.0";
 
         dependencies =
-          [ web-dom web-html web-uievents 
+          [ web-dom web-html web-uievents
           ];
       };
   };
@@ -4832,7 +4832,7 @@ web-dom =
       { version = "6.0.0";
 
         dependencies =
-          [ web-events 
+          [ web-events
           ];
       };
   };
@@ -4847,7 +4847,7 @@ web-dom-parser =
       { version = "8.0.0";
 
         dependencies =
-          [ effect partial prelude web-dom 
+          [ effect partial prelude web-dom
           ];
       };
   };
@@ -4862,7 +4862,7 @@ web-dom-xpath =
       { version = "3.0.0";
 
         dependencies =
-          [ web-dom 
+          [ web-dom
           ];
       };
   };
@@ -4877,7 +4877,7 @@ web-encoding =
       { version = "3.0.0";
 
         dependencies =
-          [ arraybuffer-types effect newtype prelude 
+          [ arraybuffer-types effect newtype prelude
           ];
       };
   };
@@ -4892,7 +4892,7 @@ web-events =
       { version = "4.0.0";
 
         dependencies =
-          [ datetime enums foreign nullable 
+          [ datetime enums foreign nullable
           ];
       };
   };
@@ -4907,7 +4907,7 @@ web-fetch =
       { version = "3.0.0";
 
         dependencies =
-          [ effect foreign-object http-methods prelude record typelevel-prelude web-file web-promise web-streams 
+          [ effect foreign-object http-methods prelude record typelevel-prelude web-file web-promise web-streams
           ];
       };
   };
@@ -4922,7 +4922,7 @@ web-file =
       { version = "4.0.0";
 
         dependencies =
-          [ foreign media-types web-dom 
+          [ foreign media-types web-dom
           ];
       };
   };
@@ -4937,7 +4937,7 @@ web-html =
       { version = "4.0.0";
 
         dependencies =
-          [ js-date web-dom web-file web-storage 
+          [ js-date web-dom web-file web-storage
           ];
       };
   };
@@ -4952,7 +4952,7 @@ web-page-visibility =
       { version = "2.0.0";
 
         dependencies =
-          [ effect enums exceptions maybe prelude strings web-events web-html 
+          [ effect enums exceptions maybe prelude strings web-events web-html
           ];
       };
   };
@@ -4967,7 +4967,7 @@ web-pointerevents =
       { version = "1.0.0";
 
         dependencies =
-          [ effect maybe prelude web-dom web-uievents 
+          [ effect maybe prelude web-dom web-uievents
           ];
       };
   };
@@ -4982,7 +4982,7 @@ web-promise =
       { version = "3.0.0";
 
         dependencies =
-          [ effect exceptions foldable-traversable functions maybe prelude 
+          [ effect exceptions foldable-traversable functions maybe prelude
           ];
       };
   };
@@ -4997,7 +4997,7 @@ web-router =
       { version = "1.0.0";
 
         dependencies =
-          [ aff effect foldable-traversable foreign freet indexed-monad maybe prelude profunctor-lenses refs routing type-equality 
+          [ aff effect foldable-traversable foreign freet indexed-monad maybe prelude profunctor-lenses refs routing type-equality
           ];
       };
   };
@@ -5012,7 +5012,7 @@ web-socket =
       { version = "4.0.0";
 
         dependencies =
-          [ arraybuffer-types web-file 
+          [ arraybuffer-types web-file
           ];
       };
   };
@@ -5027,7 +5027,7 @@ web-storage =
       { version = "5.0.0";
 
         dependencies =
-          [ nullable web-events 
+          [ nullable web-events
           ];
       };
   };
@@ -5042,7 +5042,7 @@ web-streams =
       { version = "3.0.0";
 
         dependencies =
-          [ arraybuffer-types effect exceptions nullable prelude tuples web-promise 
+          [ arraybuffer-types effect exceptions nullable prelude tuples web-promise
           ];
       };
   };
@@ -5057,7 +5057,7 @@ web-touchevents =
       { version = "4.0.0";
 
         dependencies =
-          [ web-uievents 
+          [ web-uievents
           ];
       };
   };
@@ -5072,7 +5072,7 @@ web-uievents =
       { version = "4.0.0";
 
         dependencies =
-          [ web-html 
+          [ web-html
           ];
       };
   };
@@ -5087,7 +5087,7 @@ web-workers =
       { version = "1.1.0";
 
         dependencies =
-          [ effect foreign maybe prelude unsafe-coerce web-events 
+          [ effect foreign maybe prelude unsafe-coerce web-events
           ];
       };
   };
@@ -5102,7 +5102,7 @@ web-xhr =
       { version = "5.0.0";
 
         dependencies =
-          [ arraybuffer-types datetime http-methods web-dom web-file web-html 
+          [ arraybuffer-types datetime http-methods web-dom web-file web-html
           ];
       };
   };
@@ -5117,7 +5117,7 @@ which =
       { version = "2.0.0";
 
         dependencies =
-          [ arrays effect foreign maybe nullable options prelude 
+          [ arrays effect foreign maybe nullable options prelude
           ];
       };
   };
@@ -5132,7 +5132,7 @@ yoga-fetch =
       { version = "1.0.1";
 
         dependencies =
-          [ aff aff-promise arraybuffer-types effect foreign foreign-object newtype prelude typelevel-prelude unsafe-coerce 
+          [ aff aff-promise arraybuffer-types effect foreign foreign-object newtype prelude typelevel-prelude unsafe-coerce
           ];
       };
   };
@@ -5147,7 +5147,7 @@ yoga-json =
       { version = "3.0.2";
 
         dependencies =
-          [ arrays bifunctors bigints control effect either exceptions foldable-traversable foreign foreign-object identity js-date lists maybe nullable partial prelude record transformers typelevel-prelude variant 
+          [ arrays bifunctors bigints control effect either exceptions foldable-traversable foreign foreign-object identity js-date lists maybe nullable partial prelude record transformers typelevel-prelude variant
           ];
       };
   };
@@ -5162,7 +5162,7 @@ yoga-postgres =
       { version = "6.0.0";
 
         dependencies =
-          [ aff arrays datetime effect either enums foldable-traversable foreign integers maybe nullable prelude transformers unsafe-coerce 
+          [ aff arrays datetime effect either enums foldable-traversable foreign integers maybe nullable prelude transformers unsafe-coerce
           ];
       };
   };
