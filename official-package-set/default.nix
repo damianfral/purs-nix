@@ -1,6 +1,5 @@
-ps-pkgs:
-  with ps-pkgs;
-  { ace =
+ps-pkgs: with ps-pkgs;
+{ ace =
   { src.git =
       { repo = "https://github.com/purescript-contrib/purescript-ace.git";
         rev = "f5ef6a8f9cbd61f4e42997ab7210fe72d03afc48";
